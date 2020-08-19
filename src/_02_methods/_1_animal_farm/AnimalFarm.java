@@ -17,29 +17,52 @@ public class AnimalFarm {
 	public static void main(String[] args) {
 			
 		/* 1. Ask the user which animal they want, then play the sound of that animal. */			 
-			
+		String animal = JOptionPane.showInputDialog("what is your favorite animal");
+		if (animal.equals("cow")) {
+			playMoo();
+		}
+					String animal = JOptionPane.showInputDialog("what is your favorite animal");
+					if (animal.equals("duck")) {
+						playQuack();
+					}
+					String animal = JOptionPane.showInputDialog("what is your favorite animal");
+					if (animal.equals("dog")) {
+						playWoof();
+					}
+					String animal = JOptionPane.showInputDialog("what is your favorite animal");
+						if (animal.equals("cat")) {
+							playMeow();
+						}
+
+						String animal = JOptionPane.showInputDialog("what is your favorite animal");
+							if (animal.equal)
 		/* 2. Make it so that the user can keep entering new animals. */
 
 	}
 
 	static void playMoo() {
-		playNoise(mooFile);
+		JOptionPane.showMessageDialog(null, "Moo");
+		//playNoise(mooFile);
 	}
 
 	static void playQuack() {
-		playNoise(quackFile);
+		JOptionPane.showMessageDialog(null, "Quack");
+		//playNoise(quackFile);
 	}
 
 	static void playWoof() {
-		playNoise(woofFile);
+		JOptionPane.showMessageDialog(null, "Woof");
+		//playNoise(woofFile);
 	}
 	
 	static void playMeow() {
-		playNoise(meowFile);
+		JOptionPane.showMessageDialog(null, "Meow");
+		//playNoise(meowFile);
 	}
 	
 	static void playLlama() {
-		playNoise(llamaFile);
+		JOptionPane.showMessageDialog(null, "Llama");
+		//playNoise(llamaFile);
 	}
 
 	static String quackFile = "quack.wav";
