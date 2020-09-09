@@ -35,7 +35,7 @@ public class AnimalFarm {
 						}
 
 						String animal = JOptionPane.showInputDialog("what is your favorite animal");
-							if (animal.equal)
+							if (animal.equals("llama"))
 		/* 2. Make it so that the user can keep entering new animals. */
 
 	}
